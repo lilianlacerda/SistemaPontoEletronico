@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SistemaPontoEletronico.Views;
 
 namespace SistemaPontoEletronico
 {
@@ -19,12 +20,14 @@ namespace SistemaPontoEletronico
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            if(!string.IsNullOrEmpty(textBoxLogin.Text) || !String.IsNullOrEmpty(textBoxSenha.Text))
+
+            if (!string.IsNullOrEmpty(textBoxLogin.Text) || !String.IsNullOrEmpty(textBoxSenha.Text))
             {
                 if (textBoxLogin.Text == "admin" && textBoxSenha.Text == "1234")
                 {
                     MessageBox.Show("Login efetuado com sucesso!", "Login Aprovado!");
                     this.Hide();
+                    new TelaRegistroPonto().Show();
                 }
                 else
                 {

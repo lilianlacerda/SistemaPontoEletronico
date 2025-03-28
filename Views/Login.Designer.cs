@@ -38,8 +38,8 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Font = new System.Drawing.Font("SansSerif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.btnEntrar.Location = new System.Drawing.Point(191, 257);
+            this.btnEntrar.Font = new System.Drawing.Font("SansSerif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.btnEntrar.Location = new System.Drawing.Point(191, 251);
             this.btnEntrar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(67, 26);
@@ -51,11 +51,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("SansSerif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label1.Location = new System.Drawing.Point(75, 47);
+            this.label1.Font = new System.Drawing.Font("SansSerif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label1.Location = new System.Drawing.Point(74, 51);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(271, 31);
+            this.label1.Size = new System.Drawing.Size(257, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "Registre Seu Ponto!";
             // 
@@ -74,28 +74,29 @@
             this.textBoxSenha.Location = new System.Drawing.Point(126, 211);
             this.textBoxSenha.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBoxSenha.Name = "textBoxSenha";
+            this.textBoxSenha.PasswordChar = '*';
             this.textBoxSenha.Size = new System.Drawing.Size(132, 23);
             this.textBoxSenha.TabIndex = 3;
             // 
             // labelLogin
             // 
             this.labelLogin.AutoSize = true;
-            this.labelLogin.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.labelLogin.Font = new System.Drawing.Font("SansSerif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.labelLogin.Location = new System.Drawing.Point(122, 120);
             this.labelLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(47, 16);
+            this.labelLogin.Size = new System.Drawing.Size(38, 15);
             this.labelLogin.TabIndex = 4;
             this.labelLogin.Text = "Login";
             // 
             // labelSenha
             // 
             this.labelSenha.AutoSize = true;
-            this.labelSenha.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.labelSenha.Font = new System.Drawing.Font("SansSerif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.labelSenha.Location = new System.Drawing.Point(122, 192);
             this.labelSenha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelSenha.Name = "labelSenha";
-            this.labelSenha.Size = new System.Drawing.Size(50, 16);
+            this.labelSenha.Size = new System.Drawing.Size(44, 15);
             this.labelSenha.TabIndex = 5;
             this.labelSenha.Text = "Senha";
             // 

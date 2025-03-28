@@ -16,5 +16,25 @@ namespace SistemaPontoEletronico
         {
             InitializeComponent();
         }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            if(!string.IsNullOrEmpty(textBoxLogin.Text) || !String.IsNullOrEmpty(textBoxSenha.Text))
+            {
+                if (textBoxLogin.Text == "admin" && textBoxSenha.Text == "1234")
+                {
+                    MessageBox.Show("Login efetuado com sucesso!", "Login Aprovado!");
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Login ou senha Incorretos!", "Erro de Login!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Você precisa preencher todos os campos para acessar", "Campos Vazios!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }
